@@ -36,6 +36,7 @@ namespace ChurrosTruck
                 if (value <= 0)
                     Console.WriteLine("Error: Quantity must be at least 1.");
                      Console.WriteLine("You entered: " + value);
+                     Console.WriteLine("Please enter a number greater than zero.");
                 _quantity = value;
             }
         }
