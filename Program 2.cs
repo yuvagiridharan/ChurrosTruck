@@ -10,7 +10,7 @@ namespace ChurrosTruck
     internal class Program
     {
         // ── Menu data – stored in a list of Churros objects ──────────────────
-        private static readonly List<Churros> Menu = new List<Churros>
+        private static  List<Churros> Menu = new List<Churros>
         {
             new Churros("Churros with plain sugar",     6.00),
             new Churros("Churros with cinnamon sugar",  6.00),
