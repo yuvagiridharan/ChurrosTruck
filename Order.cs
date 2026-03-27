@@ -22,7 +22,7 @@ namespace ChurrosTruck
             private set
             {
                 if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Order details cannot be empty.");
+                    Console.WriteLine("order details cannot be empty...");
                 _orderDetails = value;
             }
         }
@@ -37,7 +37,8 @@ namespace ChurrosTruck
                     Console.WriteLine("Error: Quantity must be at least 1.");
                      Console.WriteLine("You entered: " + value);
                      Console.WriteLine("Please enter a number greater than zero.");
-                _quantity = value;
+                    _quantity = value;
+               
             }
         }
 
