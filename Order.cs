@@ -34,7 +34,7 @@ namespace ChurrosTruck
             private set
             {
                 if (value <= 0)
-                    throw new ArgumentException("Quantity must be at least 1.");
+                    Console.WriteLine("Error: Quantity must be at least 1.");
                 _quantity = value;
             }
         }
