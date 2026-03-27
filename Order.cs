@@ -6,18 +6,14 @@ namespace ChurrosTruck
       
         private static int _nextOrderNo = 1;  
 
-        private int    _orderNo;
+        private int   _orderNo;
         private string _orderDetails;
         private int    _quantity;
         private double _bill;
         private bool   _isCollected;
 
       
-        public int OrderNo
-        {
-            get { return _orderNo; }
-            private set { _orderNo = value; }
-        }
+       public int OrderNo { get; private set; }
 
   
         public string OrderDetails
