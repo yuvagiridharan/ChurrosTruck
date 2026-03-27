@@ -43,12 +43,21 @@ namespace ChurrosTruck
         }
 
        
-        public double Bill
-        {
-            get { return _bill; }
-            private set { _bill = value; }
-        }
+      public double Bill
+{
+    
+    get
+    {
+        return _bill;
+    }
 
+    private set
+    {
+        _bill = value;
+
+        Console.WriteLine("Bill has been set to: €" + _bill);
+    }
+}
        
         public bool IsCollected
         {
