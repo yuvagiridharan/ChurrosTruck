@@ -4,7 +4,7 @@ namespace ChurrosTruck
     public class Churros
     {
         
-        private string _name;
+        private string _name = string.Empty;
         private double _price;
 
     
@@ -31,7 +31,7 @@ namespace ChurrosTruck
         }
 
         // Constructor
-        public Churros(string name, double price)
+        public  Churros(string name, double price)
         {
             Name = name;
             Price = price;

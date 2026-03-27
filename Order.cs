@@ -6,7 +6,7 @@ namespace ChurrosTruck
       
         private static int _nextOrderNo = 1;  
 
-        
+
         private string _orderDetails = string.Empty; 
         private int    _quantity;
         private double _bill;
