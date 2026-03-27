@@ -71,7 +71,8 @@ namespace ChurrosTruck
         public Order(Churros item, int quantity)
         {
             if (item == null)
-                throw new ArgumentNullException(nameof(item), "A valid Churros item is required.");
+                Console.WriteLine("Error: item cannot be empty.");
+                Console.WriteLine("Please select a valid churros item.");
 
             OrderNo      = _nextOrderNo++;
             OrderDetails = item.Name;
